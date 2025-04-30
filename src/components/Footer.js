@@ -1,4 +1,4 @@
-// src/components/Footer.js
+
 import React from 'react';
 import { Container, Row, Col, Nav } from 'react-bootstrap';
 import { FaFacebookF, FaXTwitter, FaInstagram } from 'react-icons/fa6';
