@@ -1,4 +1,4 @@
-// src/pages/FAQ.js
+
 import React from 'react';
 import { Container, Accordion } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
