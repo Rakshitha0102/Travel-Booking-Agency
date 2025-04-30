@@ -1,4 +1,4 @@
-// components/HotelBookingForm.js
+
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FaUser, FaBed, FaCreditCard, FaEnvelope, FaPhone, FaStar, FaMapMarkerAlt } from 'react-icons/fa';
