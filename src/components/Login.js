@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { useAuth } from '../context/AuthContext'; // <-- Important!
-import loginBg from '../assets/b.png'; // Optional: background image
-
+import { useAuth } from '../context/AuthContext'; 
+import loginBg from '../assets/b.png'; 
 const Login = () => {
   const navigate = useNavigate();
   const location = useLocation();
@@ -78,8 +77,8 @@ const Login = () => {
         linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
         url(${loginBg}) repeat
       `,
-      backgroundSize: 'auto', // This allows the image to repeat at its original size
-      backgroundAttachment: 'fixed', // Optional: makes the background fixed during scrolling
+      backgroundSize: 'auto', 
+      backgroundAttachment: 'fixed',
       minHeight: '100vh'
     }}
   >
