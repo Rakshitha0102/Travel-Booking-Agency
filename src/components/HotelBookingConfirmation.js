@@ -1,4 +1,4 @@
-// components/HotelBookingConfirmation.js
+
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { FaCheckCircle, FaStar, FaMapMarkerAlt, FaBed, FaUser } from 'react-icons/fa';
