@@ -1,4 +1,4 @@
-// components/HotelResults.js
+
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FaStar, FaWifi, FaSwimmingPool, FaParking, FaUtensils } from 'react-icons/fa';
